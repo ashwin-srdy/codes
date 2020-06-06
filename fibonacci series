@@ -1,0 +1,13 @@
+n=int(input())
+a,b,i=0,1,0
+if(n==1):
+    print(a)
+elif(n>1):
+     print(a)
+     print(b)
+     while(i<n-2):
+         nth=a+b
+         print(nth)
+         a=b
+         b=nth
+         i+=1
